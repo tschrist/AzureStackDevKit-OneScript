@@ -9,23 +9,23 @@ Important: The ASDK is not intended to be used or supported in a production envi
 
 Assumptions:
 - Your hardware meets (or exceeds) the minimum hardware specification: 
-  https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-deploy-considerations
+  - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-deploy-considerations
 - You have installed (and booted) to the ASDK
-  https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-install 
+  - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-install 
 - You have an active Microsoft Azure Account
-  https://portal.azure.com
+  - https://portal.azure.com
 - You have configured the system as per deployment considerations
-  https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-deploy-considerations
+  - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-deploy-considerations
 
 This script performs the following activities:
 ---------------------------------------------------
-Post ASDK installation configuration tasks
+- Post ASDK installation configuration tasks
   - Install Azure Stack PowerShell
   - Download the Azure Stack tools
   - Validate the ASDK installation (WIP)
   - Activate the administrator and tenant portals
   - Reset the password expiration policy to 180 days
- Azure Stack registration 
+ - Azure Stack registration 
     
  
  If you have general questions about Microsoft Azure Stack - check here first! 
