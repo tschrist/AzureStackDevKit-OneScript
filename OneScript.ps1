@@ -4,16 +4,13 @@ Set-PSRepository `
   -Name "PSGallery" `
   -InstallationPolicy Trusted
 
-# Install the AzureRM.Bootstrapper module. Select Yes when prompted to install NuGet. 
-Install-Module `
-  -Name AzureRm.BootStrapper
+# Install the AzureRM.Bootstrapper module. Select Yes when prompted to install NuGet
+Install-Module -Name AzureRm.BootStrapper
 
 # Install and import the API Version Profile required by Azure Stack into the current PowerShell session.
-Use-AzureRmProfile `
-  -Profile 2017-03-09-profile -Force
+Use-AzureRmProfile -Profile 2018-03-01-hybrid -Force
 
-# Install Azure Stack Module Version 1.4.0. If running a pre-1804 version of Azure Stack, change the -RequiredVersion value to 1.2.11.
-Install-Module -Name AzureStack -RequiredVersion 1.4.0
+Install-Module -Name AzureStack -RequiredVersion 1.5.0
 
 # Change directory to the root directory. 
 cd \
