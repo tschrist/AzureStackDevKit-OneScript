@@ -1,4 +1,5 @@
 ﻿# OneScript for Azure Stack Development Kit (ASDK)
+Set-ExecutionPolicy Unrestricted -Force
 
 Set-PSRepository `
   -Name "PSGallery" `
