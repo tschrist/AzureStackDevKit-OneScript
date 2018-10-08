@@ -54,3 +54,5 @@ $ExecutionContext.SessionState.LanguageMode
   -PrivilegedEndpoint AzS-ERCS01 `
   -BillingModel Development `
   -RegistrationName "TSC"
+  
+  #note - you will have to change the -RegistrationName to be unique
