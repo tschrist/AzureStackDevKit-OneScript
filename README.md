@@ -4,8 +4,8 @@ This is a simplified script for those who install the Microsoft Azure Stack Deve
 
 Important: The ASDK is not intended to be used or supported in a production environment.
 
-# Updated as of 1.1808.0.97 build
- - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-release-notes#build-11808097
+# Updated as of 1.1901.0.95 build
+ - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-release-notes#build-11901095
 
 Assumptions:
 - Your hardware meets (or exceeds) the minimum hardware specification: 
