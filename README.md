@@ -6,6 +6,7 @@ Important: The ASDK is not intended to be used or supported in a production envi
 
 # Updated as of 1.1901.0.95 build
  - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-release-notes#build-11901095
+ - https://docs.microsoft.com/en-us/azure/azure-stack/asdk/asdk-release-notes
 
 Assumptions:
 - Your hardware meets (or exceeds) the minimum hardware specification: 
